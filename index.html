@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="/Users/olasubomi/Desktop/event_scheduler/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Scheduler</h1>
+        <div id="event-form">
+            <h2>Create New Event</h2>
+            <input type="text" id="event-name" placeholder="Event Name">
+            <input type="datetime-local" id="event-start" placeholder="Start Date/Time">
+            <input type="datetime-local" id="event-end" placeholder="End Date/Time">
+            <input type="text" id="event-location" placeholder="Location">
+            <input type="text" id="event-category" placeholder="Category">
+            <textarea id="event-description" placeholder="Event Description"></textarea>
+            <button id="add-event">Add Event</button>
+        </div>
+        <div id="calendar">
+            <!-- Calendar will be generated using JavaScript -->
+        </div>
+    </div>
+    <script src="/Users/olasubomi/Desktop/event_scheduler/static/app.js"></script>
+
+</body>
+</html>
+
